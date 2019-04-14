@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDB734"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        >
+
+        <EditText
+
+            android:id="@+id/usrIdEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="userId"
+            android:layout_marginTop="40dp"
+            />
+
+        <EditText
+            android:id="@+id/usrPassEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="passwork"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/msgbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="TEST SAMPLE"
+        android:gravity="center"
+        />
+
+</LinearLayout>
